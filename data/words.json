@@ -1,302 +1,2102 @@
 [
-  {"id": 1, "word": "apple", "phonetic": "/ˈæpl/", "meaning": "苹果", "pos": "n."},
-  {"id": 2, "word": "book", "phonetic": "/bʊk/", "meaning": "书；书本", "pos": "n."},
-  {"id": 3, "word": "cat", "phonetic": "/kæt/", "meaning": "猫", "pos": "n."},
-  {"id": 4, "word": "dog", "phonetic": "/dɔːɡ/", "meaning": "狗", "pos": "n."},
-  {"id": 5, "word": "egg", "phonetic": "/eɡ/", "meaning": "鸡蛋", "pos": "n."},
-  {"id": 6, "word": "family", "phonetic": "/ˈfæməli/", "meaning": "家庭；家人", "pos": "n."},
-  {"id": 7, "word": "good", "phonetic": "/ɡʊd/", "meaning": "好的", "pos": "adj."},
-  {"id": 8, "word": "happy", "phonetic": "/ˈhæpi/", "meaning": "快乐的；幸福的", "pos": "adj."},
-  {"id": 9, "word": "ice", "phonetic": "/aɪs/", "meaning": "冰", "pos": "n."},
-  {"id": 10, "word": "jump", "phonetic": "/dʒʌmp/", "meaning": "跳；跳跃", "pos": "v."},
-  {"id": 11, "word": "know", "phonetic": "/nəʊ/", "meaning": "知道；了解", "pos": "v."},
-  {"id": 12, "word": "love", "phonetic": "/lʌv/", "meaning": "爱；喜爱", "pos": "v./n."},
-  {"id": 13, "word": "mother", "phonetic": "/ˈmʌðə(r)/", "meaning": "母亲；妈妈", "pos": "n."},
-  {"id": 14, "word": "name", "phonetic": "/neɪm/", "meaning": "名字；名称", "pos": "n."},
-  {"id": 15, "word": "open", "phonetic": "/ˈəʊpən/", "meaning": "打开；开着的", "pos": "v./adj."},
-  {"id": 16, "word": "pen", "phonetic": "/pen/", "meaning": "钢笔", "pos": "n."},
-  {"id": 17, "word": "question", "phonetic": "/ˈkwestʃən/", "meaning": "问题；疑问", "pos": "n."},
-  {"id": 18, "word": "run", "phonetic": "/rʌn/", "meaning": "跑；奔跑", "pos": "v."},
-  {"id": 19, "word": "school", "phonetic": "/skuːl/", "meaning": "学校", "pos": "n."},
-  {"id": 20, "word": "teacher", "phonetic": "/ˈtiːtʃə(r)/", "meaning": "教师；老师", "pos": "n."},
-  {"id": 21, "word": "under", "phonetic": "/ˈʌndə(r)/", "meaning": "在……下面", "pos": "prep."},
-  {"id": 22, "word": "very", "phonetic": "/ˈveri/", "meaning": "很；非常", "pos": "adv."},
-  {"id": 23, "word": "water", "phonetic": "/ˈwɔːtə(r)/", "meaning": "水", "pos": "n."},
-  {"id": 24, "word": "yellow", "phonetic": "/ˈjeləʊ/", "meaning": "黄色的；黄色", "pos": "adj./n."},
-  {"id": 25, "word": "zoo", "phonetic": "/zuː/", "meaning": "动物园", "pos": "n."},
-  {"id": 26, "word": "beautiful", "phonetic": "/ˈbjuːtɪfl/", "meaning": "美丽的；漂亮的", "pos": "adj."},
-  {"id": 27, "word": "careful", "phonetic": "/ˈkeəfl/", "meaning": "小心的；仔细的", "pos": "adj."},
-  {"id": 28, "word": "dangerous", "phonetic": "/ˈdeɪndʒərəs/", "meaning": "危险的", "pos": "adj."},
-  {"id": 29, "word": "easy", "phonetic": "/ˈiːzi/", "meaning": "容易的；简单的", "pos": "adj."},
-  {"id": 30, "word": "fast", "phonetic": "/fɑːst/", "meaning": "快的；快速地", "pos": "adj./adv."},
-  {"id": 31, "word": "great", "phonetic": "/ɡreɪt/", "meaning": "伟大的；极好的", "pos": "adj."},
-  {"id": 32, "word": "heavy", "phonetic": "/ˈhevi/", "meaning": "重的；沉重的", "pos": "adj."},
-  {"id": 33, "word": "important", "phonetic": "/ɪmˈpɔːtnt/", "meaning": "重要的", "pos": "adj."},
-  {"id": 34, "word": "interesting", "phonetic": "/ˈɪntrəstɪŋ/", "meaning": "有趣的；有意思的", "pos": "adj."},
-  {"id": 35, "word": "kind", "phonetic": "/kaɪnd/", "meaning": "和蔼的；种类", "pos": "adj./n."},
-  {"id": 36, "word": "large", "phonetic": "/lɑːdʒ/", "meaning": "大的；巨大的", "pos": "adj."},
-  {"id": 37, "word": "small", "phonetic": "/smɔːl/", "meaning": "小的", "pos": "adj."},
-  {"id": 38, "word": "new", "phonetic": "/njuː/", "meaning": "新的", "pos": "adj."},
-  {"id": 39, "word": "old", "phonetic": "/əʊld/", "meaning": "老的；旧的", "pos": "adj."},
-  {"id": 40, "word": "young", "phonetic": "/jʌŋ/", "meaning": "年轻的", "pos": "adj."},
-  {"id": 41, "word": "breakfast", "phonetic": "/ˈbrekfəst/", "meaning": "早餐", "pos": "n."},
-  {"id": 42, "word": "lunch", "phonetic": "/lʌntʃ/", "meaning": "午餐", "pos": "n."},
-  {"id": 43, "word": "dinner", "phonetic": "/ˈdɪnə(r)/", "meaning": "晚餐；正餐", "pos": "n."},
-  {"id": 44, "word": "bread", "phonetic": "/bred/", "meaning": "面包", "pos": "n."},
-  {"id": 45, "word": "rice", "phonetic": "/raɪs/", "meaning": "米饭；大米", "pos": "n."},
-  {"id": 46, "word": "milk", "phonetic": "/mɪlk/", "meaning": "牛奶", "pos": "n."},
-  {"id": 47, "word": "juice", "phonetic": "/dʒuːs/", "meaning": "果汁", "pos": "n."},
-  {"id": 48, "word": "meat", "phonetic": "/miːt/", "meaning": "肉", "pos": "n."},
-  {"id": 49, "word": "fish", "phonetic": "/fɪʃ/", "meaning": "鱼；鱼肉", "pos": "n."},
-  {"id": 50, "word": "vegetable", "phonetic": "/ˈvedʒtəbl/", "meaning": "蔬菜", "pos": "n."},
-  {"id": 51, "word": "fruit", "phonetic": "/fruːt/", "meaning": "水果", "pos": "n."},
-  {"id": 52, "word": "banana", "phonetic": "/bəˈnɑːnə/", "meaning": "香蕉", "pos": "n."},
-  {"id": 53, "word": "orange", "phonetic": "/ˈɒrɪndʒ/", "meaning": "橙子；橙色的", "pos": "n./adj."},
-  {"id": 54, "word": "grape", "phonetic": "/ɡreɪp/", "meaning": "葡萄", "pos": "n."},
-  {"id": 55, "word": "strawberry", "phonetic": "/ˈstrɔːbəri/", "meaning": "草莓", "pos": "n."},
-  {"id": 56, "word": "tomato", "phonetic": "/təˈmɑːtəʊ/", "meaning": "西红柿", "pos": "n."},
-  {"id": 57, "word": "potato", "phonetic": "/pəˈteɪtəʊ/", "meaning": "土豆；马铃薯", "pos": "n."},
-  {"id": 58, "word": "carrot", "phonetic": "/ˈkærət/", "meaning": "胡萝卜", "pos": "n."},
-  {"id": 59, "word": "cake", "phonetic": "/keɪk/", "meaning": "蛋糕", "pos": "n."},
-  {"id": 60, "word": "sugar", "phonetic": "/ˈʃʊɡə(r)/", "meaning": "糖", "pos": "n."},
-  {"id": 61, "word": "morning", "phonetic": "/ˈmɔːnɪŋ/", "meaning": "早晨；上午", "pos": "n."},
-  {"id": 62, "word": "afternoon", "phonetic": "/ˌɑːftəˈnuːn/", "meaning": "下午", "pos": "n."},
-  {"id": 63, "word": "evening", "phonetic": "/ˈiːvnɪŋ/", "meaning": "傍晚；晚上", "pos": "n."},
-  {"id": 64, "word": "night", "phonetic": "/naɪt/", "meaning": "夜晚；夜间", "pos": "n."},
-  {"id": 65, "word": "today", "phonetic": "/təˈdeɪ/", "meaning": "今天", "pos": "n./adv."},
-  {"id": 66, "word": "tomorrow", "phonetic": "/təˈmɒrəʊ/", "meaning": "明天", "pos": "n./adv."},
-  {"id": 67, "word": "yesterday", "phonetic": "/ˈjestədeɪ/", "meaning": "昨天", "pos": "n./adv."},
-  {"id": 68, "word": "week", "phonetic": "/wiːk/", "meaning": "周；星期", "pos": "n."},
-  {"id": 69, "word": "month", "phonetic": "/mʌnθ/", "meaning": "月；月份", "pos": "n."},
-  {"id": 70, "word": "year", "phonetic": "/jɪə(r)/", "meaning": "年", "pos": "n."},
-  {"id": 71, "word": "Monday", "phonetic": "/ˈmʌndeɪ/", "meaning": "星期一", "pos": "n."},
-  {"id": 72, "word": "Tuesday", "phonetic": "/ˈtjuːzdeɪ/", "meaning": "星期二", "pos": "n."},
-  {"id": 73, "word": "Wednesday", "phonetic": "/ˈwenzdeɪ/", "meaning": "星期三", "pos": "n."},
-  {"id": 74, "word": "Thursday", "phonetic": "/ˈθɜːzdeɪ/", "meaning": "星期四", "pos": "n."},
-  {"id": 75, "word": "Friday", "phonetic": "/ˈfraɪdeɪ/", "meaning": "星期五", "pos": "n."},
-  {"id": 76, "word": "Saturday", "phonetic": "/ˈsætədeɪ/", "meaning": "星期六", "pos": "n."},
-  {"id": 77, "word": "Sunday", "phonetic": "/ˈsʌndeɪ/", "meaning": "星期日", "pos": "n."},
-  {"id": 78, "word": "January", "phonetic": "/ˈdʒænjuəri/", "meaning": "一月", "pos": "n."},
-  {"id": 79, "word": "February", "phonetic": "/ˈfebruəri/", "meaning": "二月", "pos": "n."},
-  {"id": 80, "word": "March", "phonetic": "/mɑːtʃ/", "meaning": "三月", "pos": "n."},
-  {"id": 81, "word": "April", "phonetic": "/ˈeɪprəl/", "meaning": "四月", "pos": "n."},
-  {"id": 82, "word": "May", "phonetic": "/meɪ/", "meaning": "五月", "pos": "n."},
-  {"id": 83, "word": "June", "phonetic": "/dʒuːn/", "meaning": "六月", "pos": "n."},
-  {"id": 84, "word": "July", "phonetic": "/dʒuˈlaɪ/", "meaning": "七月", "pos": "n."},
-  {"id": 85, "word": "August", "phonetic": "/ˈɔːɡəst/", "meaning": "八月", "pos": "n."},
-  {"id": 86, "word": "September", "phonetic": "/sepˈtembə(r)/", "meaning": "九月", "pos": "n."},
-  {"id": 87, "word": "October", "phonetic": "/ɒkˈtəʊbə(r)/", "meaning": "十月", "pos": "n."},
-  {"id": 88, "word": "November", "phonetic": "/nəʊˈvembə(r)/", "meaning": "十一月", "pos": "n."},
-  {"id": 89, "word": "December", "phonetic": "/dɪˈsembə(r)/", "meaning": "十二月", "pos": "n."},
-  {"id": 90, "word": "spring", "phonetic": "/sprɪŋ/", "meaning": "春天；春季", "pos": "n."},
-  {"id": 91, "word": "summer", "phonetic": "/ˈsʌmə(r)/", "meaning": "夏天；夏季", "pos": "n."},
-  {"id": 92, "word": "autumn", "phonetic": "/ˈɔːtəm/", "meaning": "秋天；秋季", "pos": "n."},
-  {"id": 93, "word": "winter", "phonetic": "/ˈwɪntə(r)/", "meaning": "冬天；冬季", "pos": "n."},
-  {"id": 94, "word": "weather", "phonetic": "/ˈweðə(r)/", "meaning": "天气", "pos": "n."},
-  {"id": 95, "word": "sunny", "phonetic": "/ˈsʌni/", "meaning": "晴朗的", "pos": "adj."},
-  {"id": 96, "word": "rainy", "phonetic": "/ˈreɪni/", "meaning": "下雨的；多雨的", "pos": "adj."},
-  {"id": 97, "word": "cloudy", "phonetic": "/ˈklaʊdi/", "meaning": "多云的；阴天的", "pos": "adj."},
-  {"id": 98, "word": "windy", "phonetic": "/ˈwɪndi/", "meaning": "有风的；多风的", "pos": "adj."},
-  {"id": 99, "word": "snowy", "phonetic": "/ˈsnəʊi/", "meaning": "下雪的；多雪的", "pos": "adj."},
-  {"id": 100, "word": "hot", "phonetic": "/hɒt/", "meaning": "热的", "pos": "adj."},
-  {"id": 101, "word": "cold", "phonetic": "/kəʊld/", "meaning": "冷的；寒冷的", "pos": "adj."},
-  {"id": 102, "word": "warm", "phonetic": "/wɔːm/", "meaning": "温暖的", "pos": "adj."},
-  {"id": 103, "word": "cool", "phonetic": "/kuːl/", "meaning": "凉爽的；酷的", "pos": "adj."},
-  {"id": 104, "word": "study", "phonetic": "/ˈstʌdi/", "meaning": "学习；书房", "pos": "v./n."},
-  {"id": 105, "word": "learn", "phonetic": "/lɜːn/", "meaning": "学习；学会", "pos": "v."},
-  {"id": 106, "word": "teach", "phonetic": "/tiːtʃ/", "meaning": "教；教授", "pos": "v."},
-  {"id": 107, "word": "read", "phonetic": "/riːd/", "meaning": "读；阅读", "pos": "v."},
-  {"id": 108, "word": "write", "phonetic": "/raɪt/", "meaning": "写；书写", "pos": "v."},
-  {"id": 109, "word": "listen", "phonetic": "/ˈlɪsn/", "meaning": "听；倾听", "pos": "v."},
-  {"id": 110, "word": "speak", "phonetic": "/spiːk/", "meaning": "说；讲话", "pos": "v."},
-  {"id": 111, "word": "talk", "phonetic": "/tɔːk/", "meaning": "谈话；说话", "pos": "v./n."},
-  {"id": 112, "word": "sing", "phonetic": "/sɪŋ/", "meaning": "唱；唱歌", "pos": "v."},
-  {"id": 113, "word": "dance", "phonetic": "/dɑːns/", "meaning": "跳舞；舞蹈", "pos": "v./n."},
-  {"id": 114, "word": "draw", "phonetic": "/drɔː/", "meaning": "画；绘画", "pos": "v."},
-  {"id": 115, "word": "play", "phonetic": "/pleɪ/", "meaning": "玩；演奏；戏剧", "pos": "v./n."},
-  {"id": 116, "word": "watch", "phonetic": "/wɒtʃ/", "meaning": "观看；手表", "pos": "v./n."},
-  {"id": 117, "word": "see", "phonetic": "/siː/", "meaning": "看见；理解", "pos": "v."},
-  {"id": 118, "word": "hear", "phonetic": "/hɪə(r)/", "meaning": "听见；听到", "pos": "v."},
-  {"id": 119, "word": "look", "phonetic": "/lʊk/", "meaning": "看；看起来", "pos": "v."},
-  {"id": 120, "word": "find", "phonetic": "/faɪnd/", "meaning": "找到；发现", "pos": "v."},
-  {"id": 121, "word": "think", "phonetic": "/θɪŋk/", "meaning": "想；认为", "pos": "v."},
-  {"id": 122, "word": "know", "phonetic": "/nəʊ/", "meaning": "知道；认识", "pos": "v."},
-  {"id": 123, "word": "remember", "phonetic": "/rɪˈmembə(r)/", "meaning": "记得；想起", "pos": "v."},
-  {"id": 124, "word": "forget", "phonetic": "/fəˈɡet/", "meaning": "忘记；遗忘", "pos": "v."},
-  {"id": 125, "word": "understand", "phonetic": "/ˌʌndəˈstænd/", "meaning": "理解；明白", "pos": "v."},
-  {"id": 126, "word": "student", "phonetic": "/ˈstjuːdnt/", "meaning": "学生", "pos": "n."},
-  {"id": 127, "word": "classmate", "phonetic": "/ˈklɑːsmeɪt/", "meaning": "同班同学", "pos": "n."},
-  {"id": 128, "word": "friend", "phonetic": "/frend/", "meaning": "朋友", "pos": "n."},
-  {"id": 129, "word": "classroom", "phonetic": "/ˈklɑːsruːm/", "meaning": "教室", "pos": "n."},
-  {"id": 130, "word": "library", "phonetic": "/ˈlaɪbrəri/", "meaning": "图书馆", "pos": "n."},
-  {"id": 131, "word": "playground", "phonetic": "/ˈpleɪɡraʊnd/", "meaning": "操场；运动场", "pos": "n."},
-  {"id": 132, "word": "hospital", "phonetic": "/ˈhɒspɪtl/", "meaning": "医院", "pos": "n."},
-  {"id": 133, "word": "park", "phonetic": "/pɑːk/", "meaning": "公园；停车", "pos": "n./v."},
-  {"id": 134, "word": "shop", "phonetic": "/ʃɒp/", "meaning": "商店；购物", "pos": "n./v."},
-  {"id": 135, "word": "market", "phonetic": "/ˈmɑːkɪt/", "meaning": "市场；集市", "pos": "n."},
-  {"id": 136, "word": "street", "phonetic": "/striːt/", "meaning": "街道", "pos": "n."},
-  {"id": 137, "word": "road", "phonetic": "/rəʊd/", "meaning": "路；道路", "pos": "n."},
-  {"id": 138, "word": "bridge", "phonetic": "/brɪdʒ/", "meaning": "桥", "pos": "n."},
-  {"id": 139, "word": "river", "phonetic": "/ˈrɪvə(r)/", "meaning": "河；江", "pos": "n."},
-  {"id": 140, "word": "lake", "phonetic": "/leɪk/", "meaning": "湖", "pos": "n."},
-  {"id": 141, "word": "mountain", "phonetic": "/ˈmaʊntən/", "meaning": "山；山脉", "pos": "n."},
-  {"id": 142, "word": "tree", "phonetic": "/triː/", "meaning": "树", "pos": "n."},
-  {"id": 143, "word": "flower", "phonetic": "/ˈflaʊə(r)/", "meaning": "花", "pos": "n."},
-  {"id": 144, "word": "grass", "phonetic": "/ɡrɑːs/", "meaning": "草", "pos": "n."},
-  {"id": 145, "word": "forest", "phonetic": "/ˈfɒrɪst/", "meaning": "森林", "pos": "n."},
-  {"id": 146, "word": "island", "phonetic": "/ˈaɪlənd/", "meaning": "岛", "pos": "n."},
-  {"id": 147, "word": "beach", "phonetic": "/biːtʃ/", "meaning": "海滩；沙滩", "pos": "n."},
-  {"id": 148, "word": "sea", "phonetic": "/siː/", "meaning": "海；海洋", "pos": "n."},
-  {"id": 149, "word": "sky", "phonetic": "/skaɪ/", "meaning": "天空", "pos": "n."},
-  {"id": 150, "word": "star", "phonetic": "/stɑː(r)/", "meaning": "星星；明星", "pos": "n."},
-  {"id": 151, "word": "moon", "phonetic": "/muːn/", "meaning": "月亮", "pos": "n."},
-  {"id": 152, "word": "sun", "phonetic": "/sʌn/", "meaning": "太阳", "pos": "n."},
-  {"id": 153, "word": "rain", "phonetic": "/reɪn/", "meaning": "雨；下雨", "pos": "n./v."},
-  {"id": 154, "word": "snow", "phonetic": "/snəʊ/", "meaning": "雪；下雪", "pos": "n./v."},
-  {"id": 155, "word": "wind", "phonetic": "/wɪnd/", "meaning": "风", "pos": "n."},
-  {"id": 156, "word": "cloud", "phonetic": "/klaʊd/", "meaning": "云", "pos": "n."},
-  {"id": 157, "word": "father", "phonetic": "/ˈfɑːðə(r)/", "meaning": "父亲；爸爸", "pos": "n."},
-  {"id": 158, "word": "brother", "phonetic": "/ˈbrʌðə(r)/", "meaning": "兄弟", "pos": "n."},
-  {"id": 159, "word": "sister", "phonetic": "/ˈsɪstə(r)/", "meaning": "姐妹", "pos": "n."},
-  {"id": 160, "word": "son", "phonetic": "/sʌn/", "meaning": "儿子", "pos": "n."},
-  {"id": 161, "word": "daughter", "phonetic": "/ˈdɔːtə(r)/", "meaning": "女儿", "pos": "n."},
-  {"id": 162, "word": "uncle", "phonetic": "/ˈʌŋkl/", "meaning": "叔叔；伯父", "pos": "n."},
-  {"id": 163, "word": "aunt", "phonetic": "/ɑːnt/", "meaning": "阿姨；伯母", "pos": "n."},
-  {"id": 164, "word": "cousin", "phonetic": "/ˈkʌzn/", "meaning": "表/堂兄弟姐妹", "pos": "n."},
-  {"id": 165, "word": "grandfather", "phonetic": "/ˈɡrænfɑːðə(r)/", "meaning": "祖父；外祖父", "pos": "n."},
-  {"id": 166, "word": "grandmother", "phonetic": "/ˈɡrænmʌðə(r)/", "meaning": "祖母；外祖母", "pos": "n."},
-  {"id": 167, "word": "baby", "phonetic": "/ˈbeɪbi/", "meaning": "婴儿；宝贝", "pos": "n."},
-  {"id": 168, "word": "children", "phonetic": "/ˈtʃɪldrən/", "meaning": "孩子们", "pos": "n."},
-  {"id": 169, "word": "people", "phonetic": "/ˈpiːpl/", "meaning": "人；人们", "pos": "n."},
-  {"id": 170, "word": "man", "phonetic": "/mæn/", "meaning": "男人；人", "pos": "n."},
-  {"id": 171, "word": "woman", "phonetic": "/ˈwʊmən/", "meaning": "女人；妇女", "pos": "n."},
-  {"id": 172, "word": "boy", "phonetic": "/bɔɪ/", "meaning": "男孩", "pos": "n."},
-  {"id": 173, "word": "girl", "phonetic": "/ɡɜːl/", "meaning": "女孩", "pos": "n."},
-  {"id": 174, "word": "head", "phonetic": "/hed/", "meaning": "头", "pos": "n."},
-  {"id": 175, "word": "face", "phonetic": "/feɪs/", "meaning": "脸；面孔", "pos": "n."},
-  {"id": 176, "word": "eye", "phonetic": "/aɪ/", "meaning": "眼睛", "pos": "n."},
-  {"id": 177, "word": "ear", "phonetic": "/ɪə(r)/", "meaning": "耳朵", "pos": "n."},
-  {"id": 178, "word": "nose", "phonetic": "/nəʊz/", "meaning": "鼻子", "pos": "n."},
-  {"id": 179, "word": "mouth", "phonetic": "/maʊθ/", "meaning": "嘴；口", "pos": "n."},
-  {"id": 180, "word": "hand", "phonetic": "/hænd/", "meaning": "手", "pos": "n."},
-  {"id": 181, "word": "foot", "phonetic": "/fʊt/", "meaning": "脚", "pos": "n."},
-  {"id": 182, "word": "leg", "phonetic": "/leɡ/", "meaning": "腿", "pos": "n."},
-  {"id": 183, "word": "arm", "phonetic": "/ɑːm/", "meaning": "手臂；胳膊", "pos": "n."},
-  {"id": 184, "word": "hair", "phonetic": "/heə(r)/", "meaning": "头发", "pos": "n."},
-  {"id": 185, "word": "tall", "phonetic": "/tɔːl/", "meaning": "高的", "pos": "adj."},
-  {"id": 186, "word": "short", "phonetic": "/ʃɔːt/", "meaning": "矮的；短的", "pos": "adj."},
-  {"id": 187, "word": "thin", "phonetic": "/θɪn/", "meaning": "瘦的；薄的", "pos": "adj."},
-  {"id": 188, "word": "fat", "phonetic": "/fæt/", "meaning": "胖的；肥的", "pos": "adj."},
-  {"id": 189, "word": "strong", "phonetic": "/strɒŋ/", "meaning": "强壮的；强烈的", "pos": "adj."},
-  {"id": 190, "word": "weak", "phonetic": "/wiːk/", "meaning": "虚弱的；弱的", "pos": "adj."},
-  {"id": 191, "word": "healthy", "phonetic": "/ˈhelθi/", "meaning": "健康的", "pos": "adj."},
-  {"id": 192, "word": "ill", "phonetic": "/ɪl/", "meaning": "生病的", "pos": "adj."},
-  {"id": 193, "word": "tired", "phonetic": "/ˈtaɪəd/", "meaning": "疲倦的；累的", "pos": "adj."},
-  {"id": 194, "word": "hungry", "phonetic": "/ˈhʌŋɡri/", "meaning": "饥饿的", "pos": "adj."},
-  {"id": 195, "word": "thirsty", "phonetic": "/ˈθɜːsti/", "meaning": "口渴的", "pos": "adj."},
-  {"id": 196, "word": "angry", "phonetic": "/ˈæŋɡri/", "meaning": "生气的；愤怒的", "pos": "adj."},
-  {"id": 197, "word": "sad", "phonetic": "/sæd/", "meaning": "难过的；悲伤的", "pos": "adj."},
-  {"id": 198, "word": "excited", "phonetic": "/ɪkˈsaɪtɪd/", "meaning": "兴奋的；激动的", "pos": "adj."},
-  {"id": 199, "word": "bored", "phonetic": "/bɔːd/", "meaning": "无聊的；厌烦的", "pos": "adj."},
-  {"id": 200, "word": "surprised", "phonetic": "/səˈpraɪzd/", "meaning": "惊讶的；吃惊的", "pos": "adj."},
-  {"id": 201, "word": "buy", "phonetic": "/baɪ/", "meaning": "买；购买", "pos": "v."},
-  {"id": 202, "word": "sell", "phonetic": "/sel/", "meaning": "卖；出售", "pos": "v."},
-  {"id": 203, "word": "pay", "phonetic": "/peɪ/", "meaning": "付钱；支付", "pos": "v."},
-  {"id": 204, "word": "cost", "phonetic": "/kɒst/", "meaning": "花费；价钱为", "pos": "v./n."},
-  {"id": 205, "word": "spend", "phonetic": "/spend/", "meaning": "花费；度过", "pos": "v."},
-  {"id": 206, "word": "money", "phonetic": "/ˈmʌni/", "meaning": "钱；金钱", "pos": "n."},
-  {"id": 207, "word": "dollar", "phonetic": "/ˈdɒlə(r)/", "meaning": "美元", "pos": "n."},
-  {"id": 208, "word": "bank", "phonetic": "/bæŋk/", "meaning": "银行；河岸", "pos": "n."},
-  {"id": 209, "word": "poor", "phonetic": "/pʊə(r)/", "meaning": "贫穷的；可怜的", "pos": "adj."},
-  {"id": 210, "word": "rich", "phonetic": "/rɪtʃ/", "meaning": "富有的；丰富的", "pos": "adj."},
-  {"id": 211, "word": "help", "phonetic": "/help/", "meaning": "帮助；帮忙", "pos": "v./n."},
-  {"id": 212, "word": "try", "phonetic": "/traɪ/", "meaning": "尝试；努力", "pos": "v./n."},
-  {"id": 213, "word": "start", "phonetic": "/stɑːt/", "meaning": "开始；启动", "pos": "v./n."},
-  {"id": 214, "word": "finish", "phonetic": "/ˈfɪnɪʃ/", "meaning": "完成；结束", "pos": "v."},
-  {"id": 215, "word": "begin", "phonetic": "/bɪˈɡɪn/", "meaning": "开始", "pos": "v."},
-  {"id": 216, "word": "end", "phonetic": "/end/", "meaning": "结束；末端", "pos": "n./v."},
-  {"id": 217, "word": "stop", "phonetic": "/stɒp/", "meaning": "停止；车站", "pos": "v./n."},
-  {"id": 218, "word": "continue", "phonetic": "/kənˈtɪnjuː/", "meaning": "继续", "pos": "v."},
-  {"id": 219, "word": "work", "phonetic": "/wɜːk/", "meaning": "工作；作品", "pos": "v./n."},
-  {"id": 220, "word": "job", "phonetic": "/dʒɒb/", "meaning": "工作；职业", "pos": "n."},
-  {"id": 221, "word": "worker", "phonetic": "/ˈwɜːkə(r)/", "meaning": "工人", "pos": "n."},
-  {"id": 222, "word": "doctor", "phonetic": "/ˈdɒktə(r)/", "meaning": "医生；博士", "pos": "n."},
-  {"id": 223, "word": "nurse", "phonetic": "/nɜːs/", "meaning": "护士", "pos": "n."},
-  {"id": 224, "word": "farmer", "phonetic": "/ˈfɑːmə(r)/", "meaning": "农民", "pos": "n."},
-  {"id": 225, "word": "driver", "phonetic": "/ˈdraɪvə(r)/", "meaning": "司机；驾驶员", "pos": "n."},
-  {"id": 226, "word": "cook", "phonetic": "/kʊk/", "meaning": "厨师；烹饪", "pos": "n./v."},
-  {"id": 227, "word": "waiter", "phonetic": "/ˈweɪtə(r)/", "meaning": "服务员；侍者", "pos": "n."},
-  {"id": 228, "word": "police", "phonetic": "/pəˈliːs/", "meaning": "警察；警方", "pos": "n."},
-  {"id": 229, "word": "scientist", "phonetic": "/ˈsaɪəntɪst/", "meaning": "科学家", "pos": "n."},
-  {"id": 230, "word": "artist", "phonetic": "/ˈɑːtɪst/", "meaning": "艺术家", "pos": "n."},
-  {"id": 231, "word": "music", "phonetic": "/ˈmjuːzɪk/", "meaning": "音乐", "pos": "n."},
-  {"id": 232, "word": "art", "phonetic": "/ɑːt/", "meaning": "艺术；美术", "pos": "n."},
-  {"id": 233, "word": "sport", "phonetic": "/spɔːt/", "meaning": "体育运动", "pos": "n."},
-  {"id": 234, "word": "football", "phonetic": "/ˈfʊtbɔːl/", "meaning": "足球", "pos": "n."},
-  {"id": 235, "word": "basketball", "phonetic": "/ˈbɑːskɪtbɔːl/", "meaning": "篮球", "pos": "n."},
-  {"id": 236, "word": "tennis", "phonetic": "/ˈtenɪs/", "meaning": "网球", "pos": "n."},
-  {"id": 237, "word": "swim", "phonetic": "/swɪm/", "meaning": "游泳", "pos": "v."},
-  {"id": 238, "word": "skate", "phonetic": "/skeɪt/", "meaning": "滑冰；溜冰", "pos": "v."},
-  {"id": 239, "word": "bike", "phonetic": "/baɪk/", "meaning": "自行车", "pos": "n."},
-  {"id": 240, "word": "bus", "phonetic": "/bʌs/", "meaning": "公共汽车", "pos": "n."},
-  {"id": 241, "word": "train", "phonetic": "/treɪn/", "meaning": "火车；训练", "pos": "n./v."},
-  {"id": 242, "word": "plane", "phonetic": "/pleɪn/", "meaning": "飞机", "pos": "n."},
-  {"id": 243, "word": "ship", "phonetic": "/ʃɪp/", "meaning": "船；轮船", "pos": "n."},
-  {"id": 244, "word": "car", "phonetic": "/kɑː(r)/", "meaning": "汽车；轿车", "pos": "n."},
-  {"id": 245, "word": "walk", "phonetic": "/wɔːk/", "meaning": "步行；走路", "pos": "v./n."},
-  {"id": 246, "word": "ride", "phonetic": "/raɪd/", "meaning": "骑；乘", "pos": "v."},
-  {"id": 247, "word": "drive", "phonetic": "/draɪv/", "meaning": "驾驶；开车", "pos": "v."},
-  {"id": 248, "word": "fly", "phonetic": "/flaɪ/", "meaning": "飞；飞行", "pos": "v."},
-  {"id": 249, "word": "travel", "phonetic": "/ˈtrævl/", "meaning": "旅行；游历", "pos": "v./n."},
-  {"id": 250, "word": "visit", "phonetic": "/ˈvɪzɪt/", "meaning": "参观；拜访", "pos": "v./n."},
-  {"id": 251, "word": "computer", "phonetic": "/kəmˈpjuːtə(r)/", "meaning": "计算机；电脑", "pos": "n."},
-  {"id": 252, "word": "phone", "phonetic": "/fəʊn/", "meaning": "电话", "pos": "n."},
-  {"id": 253, "word": "email", "phonetic": "/ˈiːmeɪl/", "meaning": "电子邮件", "pos": "n."},
-  {"id": 254, "word": "internet", "phonetic": "/ˈɪntənet/", "meaning": "互联网", "pos": "n."},
-  {"id": 255, "word": "robot", "phonetic": "/ˈrəʊbɒt/", "meaning": "机器人", "pos": "n."},
-  {"id": 256, "word": "camera", "phonetic": "/ˈkæmərə/", "meaning": "照相机", "pos": "n."},
-  {"id": 257, "word": "television", "phonetic": "/ˈtelɪvɪʒn/", "meaning": "电视", "pos": "n."},
-  {"id": 258, "word": "radio", "phonetic": "/ˈreɪdiəʊ/", "meaning": "收音机；广播", "pos": "n."},
-  {"id": 259, "word": "newspaper", "phonetic": "/ˈnjuːzpeɪpə(r)/", "meaning": "报纸", "pos": "n."},
-  {"id": 260, "word": "magazine", "phonetic": "/ˌmæɡəˈziːn/", "meaning": "杂志", "pos": "n."},
-  {"id": 261, "word": "story", "phonetic": "/ˈstɔːri/", "meaning": "故事", "pos": "n."},
-  {"id": 262, "word": "game", "phonetic": "/ɡeɪm/", "meaning": "游戏；比赛", "pos": "n."},
-  {"id": 263, "word": "movie", "phonetic": "/ˈmuːvi/", "meaning": "电影", "pos": "n."},
-  {"id": 264, "word": "party", "phonetic": "/ˈpɑːti/", "meaning": "聚会；政党", "pos": "n."},
-  {"id": 265, "word": "gift", "phonetic": "/ɡɪft/", "meaning": "礼物", "pos": "n."},
-  {"id": 266, "word": "card", "phonetic": "/kɑːd/", "meaning": "卡片；纸牌", "pos": "n."},
-  {"id": 267, "word": "letter", "phonetic": "/ˈletə(r)/", "meaning": "信；字母", "pos": "n."},
-  {"id": 268, "word": "message", "phonetic": "/ˈmesɪdʒ/", "meaning": "消息；信息", "pos": "n."},
-  {"id": 269, "word": "answer", "phonetic": "/ˈɑːnsə(r)/", "meaning": "回答；答案", "pos": "v./n."},
-  {"id": 270, "word": "problem", "phonetic": "/ˈprɒbləm/", "meaning": "问题；难题", "pos": "n."},
-  {"id": 271, "word": "idea", "phonetic": "/aɪˈdɪə/", "meaning": "主意；想法", "pos": "n."},
-  {"id": 272, "word": "plan", "phonetic": "/plæn/", "meaning": "计划；打算", "pos": "n./v."},
-  {"id": 273, "word": "hope", "phonetic": "/həʊp/", "meaning": "希望", "pos": "v./n."},
-  {"id": 274, "word": "wish", "phonetic": "/wɪʃ/", "meaning": "希望；愿望", "pos": "v./n."},
-  {"id": 275, "word": "dream", "phonetic": "/driːm/", "meaning": "梦想；做梦", "pos": "n./v."},
-  {"id": 276, "word": "lucky", "phonetic": "/ˈlʌki/", "meaning": "幸运的", "pos": "adj."},
-  {"id": 277, "word": "true", "phonetic": "/truː/", "meaning": "真的；真实的", "pos": "adj."},
-  {"id": 278, "word": "false", "phonetic": "/fɔːls/", "meaning": "假的；错误的", "pos": "adj."},
-  {"id": 279, "word": "right", "phonetic": "/raɪt/", "meaning": "正确的；右边", "pos": "adj./n."},
-  {"id": 280, "word": "wrong", "phonetic": "/rɒŋ/", "meaning": "错误的；不对的", "pos": "adj."},
-  {"id": 281, "word": "same", "phonetic": "/seɪm/", "meaning": "相同的", "pos": "adj."},
-  {"id": 282, "word": "different", "phonetic": "/ˈdɪfrənt/", "meaning": "不同的", "pos": "adj."},
-  {"id": 283, "word": "many", "phonetic": "/ˈmeni/", "meaning": "许多的", "pos": "adj."},
-  {"id": 284, "word": "much", "phonetic": "/mʌtʃ/", "meaning": "许多；非常", "pos": "adj./adv."},
-  {"id": 285, "word": "little", "phonetic": "/ˈlɪtl/", "meaning": "小的；很少", "pos": "adj./n."},
-  {"id": 286, "word": "few", "phonetic": "/fjuː/", "meaning": "很少的；不多的", "pos": "adj."},
-  {"id": 287, "word": "all", "phonetic": "/ɔːl/", "meaning": "全部的；所有", "pos": "adj./pron."},
-  {"id": 288, "word": "some", "phonetic": "/sʌm/", "meaning": "一些；若干", "pos": "adj./pron."},
-  {"id": 289, "word": "any", "phonetic": "/ˈeni/", "meaning": "任何的；一些", "pos": "adj./pron."},
-  {"id": 290, "word": "each", "phonetic": "/iːtʃ/", "meaning": "每个；各自", "pos": "adj./pron."},
-  {"id": 291, "word": "every", "phonetic": "/ˈevri/", "meaning": "每一；每个", "pos": "adj."},
-  {"id": 292, "word": "both", "phonetic": "/bəʊθ/", "meaning": "两者都", "pos": "adj./pron."},
-  {"id": 293, "word": "either", "phonetic": "/ˈaɪðə(r)/", "meaning": "两者之一；也", "pos": "pron./adv."},
-  {"id": 294, "word": "neither", "phonetic": "/ˈnaɪðə(r)/", "meaning": "两者都不", "pos": "pron./adj."},
-  {"id": 295, "word": "other", "phonetic": "/ˈʌðə(r)/", "meaning": "别的；其他的", "pos": "adj./pron."},
-  {"id": 296, "word": "another", "phonetic": "/əˈnʌðə(r)/", "meaning": "另一个；再一个", "pos": "adj./pron."},
-  {"id": 297, "word": "first", "phonetic": "/fɜːst/", "meaning": "第一；首先", "pos": "num./adv."},
-  {"id": 298, "word": "last", "phonetic": "/lɑːst/", "meaning": "最后的；上一个", "pos": "adj./adv."},
-  {"id": 299, "word": "next", "phonetic": "/nekst/", "meaning": "下一个；接下来", "pos": "adj./adv."},
-  {"id": 300, "word": "best", "phonetic": "/best/", "meaning": "最好的；最", "pos": "adj./adv."}
+  {
+    "id": 1,
+    "word": "apple",
+    "phonetic": "/ˈæpl/",
+    "meaning": "苹果",
+    "pos": "n."
+  },
+  {
+    "id": 2,
+    "word": "book",
+    "phonetic": "/bʊk/",
+    "meaning": "书；书本",
+    "pos": "n."
+  },
+  {
+    "id": 3,
+    "word": "cat",
+    "phonetic": "/kæt/",
+    "meaning": "猫",
+    "pos": "n."
+  },
+  {
+    "id": 4,
+    "word": "dog",
+    "phonetic": "/dɔːɡ/",
+    "meaning": "狗",
+    "pos": "n."
+  },
+  {
+    "id": 5,
+    "word": "egg",
+    "phonetic": "/eɡ/",
+    "meaning": "鸡蛋",
+    "pos": "n."
+  },
+  {
+    "id": 6,
+    "word": "family",
+    "phonetic": "/ˈfæməli/",
+    "meaning": "家庭；家人",
+    "pos": "n."
+  },
+  {
+    "id": 7,
+    "word": "good",
+    "phonetic": "/ɡʊd/",
+    "meaning": "好的",
+    "pos": "adj."
+  },
+  {
+    "id": 8,
+    "word": "happy",
+    "phonetic": "/ˈhæpi/",
+    "meaning": "快乐的；幸福的",
+    "pos": "adj."
+  },
+  {
+    "id": 9,
+    "word": "ice",
+    "phonetic": "/aɪs/",
+    "meaning": "冰",
+    "pos": "n."
+  },
+  {
+    "id": 10,
+    "word": "jump",
+    "phonetic": "/dʒʌmp/",
+    "meaning": "跳；跳跃",
+    "pos": "v."
+  },
+  {
+    "id": 11,
+    "word": "know",
+    "phonetic": "/nəʊ/",
+    "meaning": "知道；了解",
+    "pos": "v."
+  },
+  {
+    "id": 12,
+    "word": "love",
+    "phonetic": "/lʌv/",
+    "meaning": "爱；喜爱",
+    "pos": "v./n."
+  },
+  {
+    "id": 13,
+    "word": "mother",
+    "phonetic": "/ˈmʌðə(r)/",
+    "meaning": "母亲；妈妈",
+    "pos": "n."
+  },
+  {
+    "id": 14,
+    "word": "name",
+    "phonetic": "/neɪm/",
+    "meaning": "名字；名称",
+    "pos": "n."
+  },
+  {
+    "id": 15,
+    "word": "open",
+    "phonetic": "/ˈəʊpən/",
+    "meaning": "打开；开着的",
+    "pos": "v./adj."
+  },
+  {
+    "id": 16,
+    "word": "pen",
+    "phonetic": "/pen/",
+    "meaning": "钢笔",
+    "pos": "n."
+  },
+  {
+    "id": 17,
+    "word": "question",
+    "phonetic": "/ˈkwestʃən/",
+    "meaning": "问题；疑问",
+    "pos": "n."
+  },
+  {
+    "id": 18,
+    "word": "run",
+    "phonetic": "/rʌn/",
+    "meaning": "跑；奔跑",
+    "pos": "v."
+  },
+  {
+    "id": 19,
+    "word": "school",
+    "phonetic": "/skuːl/",
+    "meaning": "学校",
+    "pos": "n."
+  },
+  {
+    "id": 20,
+    "word": "teacher",
+    "phonetic": "/ˈtiːtʃə(r)/",
+    "meaning": "教师；老师",
+    "pos": "n."
+  },
+  {
+    "id": 21,
+    "word": "under",
+    "phonetic": "/ˈʌndə(r)/",
+    "meaning": "在……下面",
+    "pos": "prep."
+  },
+  {
+    "id": 22,
+    "word": "very",
+    "phonetic": "/ˈveri/",
+    "meaning": "很；非常",
+    "pos": "adv."
+  },
+  {
+    "id": 23,
+    "word": "water",
+    "phonetic": "/ˈwɔːtə(r)/",
+    "meaning": "水",
+    "pos": "n."
+  },
+  {
+    "id": 24,
+    "word": "yellow",
+    "phonetic": "/ˈjeləʊ/",
+    "meaning": "黄色的；黄色",
+    "pos": "adj./n."
+  },
+  {
+    "id": 25,
+    "word": "zoo",
+    "phonetic": "/zuː/",
+    "meaning": "动物园",
+    "pos": "n."
+  },
+  {
+    "id": 26,
+    "word": "beautiful",
+    "phonetic": "/ˈbjuːtɪfl/",
+    "meaning": "美丽的；漂亮的",
+    "pos": "adj."
+  },
+  {
+    "id": 27,
+    "word": "careful",
+    "phonetic": "/ˈkeəfl/",
+    "meaning": "小心的；仔细的",
+    "pos": "adj."
+  },
+  {
+    "id": 28,
+    "word": "dangerous",
+    "phonetic": "/ˈdeɪndʒərəs/",
+    "meaning": "危险的",
+    "pos": "adj."
+  },
+  {
+    "id": 29,
+    "word": "easy",
+    "phonetic": "/ˈiːzi/",
+    "meaning": "容易的；简单的",
+    "pos": "adj."
+  },
+  {
+    "id": 30,
+    "word": "fast",
+    "phonetic": "/fɑːst/",
+    "meaning": "快的；快速地",
+    "pos": "adj./adv."
+  },
+  {
+    "id": 31,
+    "word": "great",
+    "phonetic": "/ɡreɪt/",
+    "meaning": "伟大的；极好的",
+    "pos": "adj."
+  },
+  {
+    "id": 32,
+    "word": "heavy",
+    "phonetic": "/ˈhevi/",
+    "meaning": "重的；沉重的",
+    "pos": "adj."
+  },
+  {
+    "id": 33,
+    "word": "important",
+    "phonetic": "/ɪmˈpɔːtnt/",
+    "meaning": "重要的",
+    "pos": "adj."
+  },
+  {
+    "id": 34,
+    "word": "interesting",
+    "phonetic": "/ˈɪntrəstɪŋ/",
+    "meaning": "有趣的；有意思的",
+    "pos": "adj."
+  },
+  {
+    "id": 35,
+    "word": "kind",
+    "phonetic": "/kaɪnd/",
+    "meaning": "和蔼的；种类",
+    "pos": "adj./n."
+  },
+  {
+    "id": 36,
+    "word": "large",
+    "phonetic": "/lɑːdʒ/",
+    "meaning": "大的；巨大的",
+    "pos": "adj."
+  },
+  {
+    "id": 37,
+    "word": "small",
+    "phonetic": "/smɔːl/",
+    "meaning": "小的",
+    "pos": "adj."
+  },
+  {
+    "id": 38,
+    "word": "new",
+    "phonetic": "/njuː/",
+    "meaning": "新的",
+    "pos": "adj."
+  },
+  {
+    "id": 39,
+    "word": "old",
+    "phonetic": "/əʊld/",
+    "meaning": "老的；旧的",
+    "pos": "adj."
+  },
+  {
+    "id": 40,
+    "word": "young",
+    "phonetic": "/jʌŋ/",
+    "meaning": "年轻的",
+    "pos": "adj."
+  },
+  {
+    "id": 41,
+    "word": "breakfast",
+    "phonetic": "/ˈbrekfəst/",
+    "meaning": "早餐",
+    "pos": "n."
+  },
+  {
+    "id": 42,
+    "word": "lunch",
+    "phonetic": "/lʌntʃ/",
+    "meaning": "午餐",
+    "pos": "n."
+  },
+  {
+    "id": 43,
+    "word": "dinner",
+    "phonetic": "/ˈdɪnə(r)/",
+    "meaning": "晚餐；正餐",
+    "pos": "n."
+  },
+  {
+    "id": 44,
+    "word": "bread",
+    "phonetic": "/bred/",
+    "meaning": "面包",
+    "pos": "n."
+  },
+  {
+    "id": 45,
+    "word": "rice",
+    "phonetic": "/raɪs/",
+    "meaning": "米饭；大米",
+    "pos": "n."
+  },
+  {
+    "id": 46,
+    "word": "milk",
+    "phonetic": "/mɪlk/",
+    "meaning": "牛奶",
+    "pos": "n."
+  },
+  {
+    "id": 47,
+    "word": "juice",
+    "phonetic": "/dʒuːs/",
+    "meaning": "果汁",
+    "pos": "n."
+  },
+  {
+    "id": 48,
+    "word": "meat",
+    "phonetic": "/miːt/",
+    "meaning": "肉",
+    "pos": "n."
+  },
+  {
+    "id": 49,
+    "word": "fish",
+    "phonetic": "/fɪʃ/",
+    "meaning": "鱼；鱼肉",
+    "pos": "n."
+  },
+  {
+    "id": 50,
+    "word": "vegetable",
+    "phonetic": "/ˈvedʒtəbl/",
+    "meaning": "蔬菜",
+    "pos": "n."
+  },
+  {
+    "id": 51,
+    "word": "fruit",
+    "phonetic": "/fruːt/",
+    "meaning": "水果",
+    "pos": "n."
+  },
+  {
+    "id": 52,
+    "word": "banana",
+    "phonetic": "/bəˈnɑːnə/",
+    "meaning": "香蕉",
+    "pos": "n."
+  },
+  {
+    "id": 53,
+    "word": "orange",
+    "phonetic": "/ˈɒrɪndʒ/",
+    "meaning": "橙子；橙色的",
+    "pos": "n./adj."
+  },
+  {
+    "id": 54,
+    "word": "grape",
+    "phonetic": "/ɡreɪp/",
+    "meaning": "葡萄",
+    "pos": "n."
+  },
+  {
+    "id": 55,
+    "word": "strawberry",
+    "phonetic": "/ˈstrɔːbəri/",
+    "meaning": "草莓",
+    "pos": "n."
+  },
+  {
+    "id": 56,
+    "word": "tomato",
+    "phonetic": "/təˈmɑːtəʊ/",
+    "meaning": "西红柿",
+    "pos": "n."
+  },
+  {
+    "id": 57,
+    "word": "potato",
+    "phonetic": "/pəˈteɪtəʊ/",
+    "meaning": "土豆；马铃薯",
+    "pos": "n."
+  },
+  {
+    "id": 58,
+    "word": "carrot",
+    "phonetic": "/ˈkærət/",
+    "meaning": "胡萝卜",
+    "pos": "n."
+  },
+  {
+    "id": 59,
+    "word": "cake",
+    "phonetic": "/keɪk/",
+    "meaning": "蛋糕",
+    "pos": "n."
+  },
+  {
+    "id": 60,
+    "word": "sugar",
+    "phonetic": "/ˈʃʊɡə(r)/",
+    "meaning": "糖",
+    "pos": "n."
+  },
+  {
+    "id": 61,
+    "word": "morning",
+    "phonetic": "/ˈmɔːnɪŋ/",
+    "meaning": "早晨；上午",
+    "pos": "n."
+  },
+  {
+    "id": 62,
+    "word": "afternoon",
+    "phonetic": "/ˌɑːftəˈnuːn/",
+    "meaning": "下午",
+    "pos": "n."
+  },
+  {
+    "id": 63,
+    "word": "evening",
+    "phonetic": "/ˈiːvnɪŋ/",
+    "meaning": "傍晚；晚上",
+    "pos": "n."
+  },
+  {
+    "id": 64,
+    "word": "night",
+    "phonetic": "/naɪt/",
+    "meaning": "夜晚；夜间",
+    "pos": "n."
+  },
+  {
+    "id": 65,
+    "word": "today",
+    "phonetic": "/təˈdeɪ/",
+    "meaning": "今天",
+    "pos": "n./adv."
+  },
+  {
+    "id": 66,
+    "word": "tomorrow",
+    "phonetic": "/təˈmɒrəʊ/",
+    "meaning": "明天",
+    "pos": "n./adv."
+  },
+  {
+    "id": 67,
+    "word": "yesterday",
+    "phonetic": "/ˈjestədeɪ/",
+    "meaning": "昨天",
+    "pos": "n./adv."
+  },
+  {
+    "id": 68,
+    "word": "week",
+    "phonetic": "/wiːk/",
+    "meaning": "周；星期",
+    "pos": "n."
+  },
+  {
+    "id": 69,
+    "word": "month",
+    "phonetic": "/mʌnθ/",
+    "meaning": "月；月份",
+    "pos": "n."
+  },
+  {
+    "id": 70,
+    "word": "year",
+    "phonetic": "/jɪə(r)/",
+    "meaning": "年",
+    "pos": "n."
+  },
+  {
+    "id": 71,
+    "word": "Monday",
+    "phonetic": "/ˈmʌndeɪ/",
+    "meaning": "星期一",
+    "pos": "n."
+  },
+  {
+    "id": 72,
+    "word": "Tuesday",
+    "phonetic": "/ˈtjuːzdeɪ/",
+    "meaning": "星期二",
+    "pos": "n."
+  },
+  {
+    "id": 73,
+    "word": "Wednesday",
+    "phonetic": "/ˈwenzdeɪ/",
+    "meaning": "星期三",
+    "pos": "n."
+  },
+  {
+    "id": 74,
+    "word": "Thursday",
+    "phonetic": "/ˈθɜːzdeɪ/",
+    "meaning": "星期四",
+    "pos": "n."
+  },
+  {
+    "id": 75,
+    "word": "Friday",
+    "phonetic": "/ˈfraɪdeɪ/",
+    "meaning": "星期五",
+    "pos": "n."
+  },
+  {
+    "id": 76,
+    "word": "Saturday",
+    "phonetic": "/ˈsætədeɪ/",
+    "meaning": "星期六",
+    "pos": "n."
+  },
+  {
+    "id": 77,
+    "word": "Sunday",
+    "phonetic": "/ˈsʌndeɪ/",
+    "meaning": "星期日",
+    "pos": "n."
+  },
+  {
+    "id": 78,
+    "word": "January",
+    "phonetic": "/ˈdʒænjuəri/",
+    "meaning": "一月",
+    "pos": "n."
+  },
+  {
+    "id": 79,
+    "word": "February",
+    "phonetic": "/ˈfebruəri/",
+    "meaning": "二月",
+    "pos": "n."
+  },
+  {
+    "id": 80,
+    "word": "March",
+    "phonetic": "/mɑːtʃ/",
+    "meaning": "三月",
+    "pos": "n."
+  },
+  {
+    "id": 81,
+    "word": "April",
+    "phonetic": "/ˈeɪprəl/",
+    "meaning": "四月",
+    "pos": "n."
+  },
+  {
+    "id": 82,
+    "word": "May",
+    "phonetic": "/meɪ/",
+    "meaning": "五月",
+    "pos": "n."
+  },
+  {
+    "id": 83,
+    "word": "June",
+    "phonetic": "/dʒuːn/",
+    "meaning": "六月",
+    "pos": "n."
+  },
+  {
+    "id": 84,
+    "word": "July",
+    "phonetic": "/dʒuˈlaɪ/",
+    "meaning": "七月",
+    "pos": "n."
+  },
+  {
+    "id": 85,
+    "word": "August",
+    "phonetic": "/ˈɔːɡəst/",
+    "meaning": "八月",
+    "pos": "n."
+  },
+  {
+    "id": 86,
+    "word": "September",
+    "phonetic": "/sepˈtembə(r)/",
+    "meaning": "九月",
+    "pos": "n."
+  },
+  {
+    "id": 87,
+    "word": "October",
+    "phonetic": "/ɒkˈtəʊbə(r)/",
+    "meaning": "十月",
+    "pos": "n."
+  },
+  {
+    "id": 88,
+    "word": "November",
+    "phonetic": "/nəʊˈvembə(r)/",
+    "meaning": "十一月",
+    "pos": "n."
+  },
+  {
+    "id": 89,
+    "word": "December",
+    "phonetic": "/dɪˈsembə(r)/",
+    "meaning": "十二月",
+    "pos": "n."
+  },
+  {
+    "id": 90,
+    "word": "spring",
+    "phonetic": "/sprɪŋ/",
+    "meaning": "春天；春季",
+    "pos": "n."
+  },
+  {
+    "id": 91,
+    "word": "summer",
+    "phonetic": "/ˈsʌmə(r)/",
+    "meaning": "夏天；夏季",
+    "pos": "n."
+  },
+  {
+    "id": 92,
+    "word": "autumn",
+    "phonetic": "/ˈɔːtəm/",
+    "meaning": "秋天；秋季",
+    "pos": "n."
+  },
+  {
+    "id": 93,
+    "word": "winter",
+    "phonetic": "/ˈwɪntə(r)/",
+    "meaning": "冬天；冬季",
+    "pos": "n."
+  },
+  {
+    "id": 94,
+    "word": "weather",
+    "phonetic": "/ˈweðə(r)/",
+    "meaning": "天气",
+    "pos": "n."
+  },
+  {
+    "id": 95,
+    "word": "sunny",
+    "phonetic": "/ˈsʌni/",
+    "meaning": "晴朗的",
+    "pos": "adj."
+  },
+  {
+    "id": 96,
+    "word": "rainy",
+    "phonetic": "/ˈreɪni/",
+    "meaning": "下雨的；多雨的",
+    "pos": "adj."
+  },
+  {
+    "id": 97,
+    "word": "cloudy",
+    "phonetic": "/ˈklaʊdi/",
+    "meaning": "多云的；阴天的",
+    "pos": "adj."
+  },
+  {
+    "id": 98,
+    "word": "windy",
+    "phonetic": "/ˈwɪndi/",
+    "meaning": "有风的；多风的",
+    "pos": "adj."
+  },
+  {
+    "id": 99,
+    "word": "snowy",
+    "phonetic": "/ˈsnəʊi/",
+    "meaning": "下雪的；多雪的",
+    "pos": "adj."
+  },
+  {
+    "id": 100,
+    "word": "hot",
+    "phonetic": "/hɒt/",
+    "meaning": "热的",
+    "pos": "adj."
+  },
+  {
+    "id": 101,
+    "word": "cold",
+    "phonetic": "/kəʊld/",
+    "meaning": "冷的；寒冷的",
+    "pos": "adj."
+  },
+  {
+    "id": 102,
+    "word": "warm",
+    "phonetic": "/wɔːm/",
+    "meaning": "温暖的",
+    "pos": "adj."
+  },
+  {
+    "id": 103,
+    "word": "cool",
+    "phonetic": "/kuːl/",
+    "meaning": "凉爽的；酷的",
+    "pos": "adj."
+  },
+  {
+    "id": 104,
+    "word": "study",
+    "phonetic": "/ˈstʌdi/",
+    "meaning": "学习；书房",
+    "pos": "v./n."
+  },
+  {
+    "id": 105,
+    "word": "learn",
+    "phonetic": "/lɜːn/",
+    "meaning": "学习；学会",
+    "pos": "v."
+  },
+  {
+    "id": 106,
+    "word": "teach",
+    "phonetic": "/tiːtʃ/",
+    "meaning": "教；教授",
+    "pos": "v."
+  },
+  {
+    "id": 107,
+    "word": "read",
+    "phonetic": "/riːd/",
+    "meaning": "读；阅读",
+    "pos": "v."
+  },
+  {
+    "id": 108,
+    "word": "write",
+    "phonetic": "/raɪt/",
+    "meaning": "写；书写",
+    "pos": "v."
+  },
+  {
+    "id": 109,
+    "word": "listen",
+    "phonetic": "/ˈlɪsn/",
+    "meaning": "听；倾听",
+    "pos": "v."
+  },
+  {
+    "id": 110,
+    "word": "speak",
+    "phonetic": "/spiːk/",
+    "meaning": "说；讲话",
+    "pos": "v."
+  },
+  {
+    "id": 111,
+    "word": "talk",
+    "phonetic": "/tɔːk/",
+    "meaning": "谈话；说话",
+    "pos": "v./n."
+  },
+  {
+    "id": 112,
+    "word": "sing",
+    "phonetic": "/sɪŋ/",
+    "meaning": "唱；唱歌",
+    "pos": "v."
+  },
+  {
+    "id": 113,
+    "word": "dance",
+    "phonetic": "/dɑːns/",
+    "meaning": "跳舞；舞蹈",
+    "pos": "v./n."
+  },
+  {
+    "id": 114,
+    "word": "draw",
+    "phonetic": "/drɔː/",
+    "meaning": "画；绘画",
+    "pos": "v."
+  },
+  {
+    "id": 115,
+    "word": "play",
+    "phonetic": "/pleɪ/",
+    "meaning": "玩；演奏；戏剧",
+    "pos": "v./n."
+  },
+  {
+    "id": 116,
+    "word": "watch",
+    "phonetic": "/wɒtʃ/",
+    "meaning": "观看；手表",
+    "pos": "v./n."
+  },
+  {
+    "id": 117,
+    "word": "see",
+    "phonetic": "/siː/",
+    "meaning": "看见；理解",
+    "pos": "v."
+  },
+  {
+    "id": 118,
+    "word": "hear",
+    "phonetic": "/hɪə(r)/",
+    "meaning": "听见；听到",
+    "pos": "v."
+  },
+  {
+    "id": 119,
+    "word": "look",
+    "phonetic": "/lʊk/",
+    "meaning": "看；看起来",
+    "pos": "v."
+  },
+  {
+    "id": 120,
+    "word": "find",
+    "phonetic": "/faɪnd/",
+    "meaning": "找到；发现",
+    "pos": "v."
+  },
+  {
+    "id": 121,
+    "word": "think",
+    "phonetic": "/θɪŋk/",
+    "meaning": "想；认为",
+    "pos": "v."
+  },
+  {
+    "id": 122,
+    "word": "know",
+    "phonetic": "/nəʊ/",
+    "meaning": "知道；认识",
+    "pos": "v."
+  },
+  {
+    "id": 123,
+    "word": "remember",
+    "phonetic": "/rɪˈmembə(r)/",
+    "meaning": "记得；想起",
+    "pos": "v."
+  },
+  {
+    "id": 124,
+    "word": "forget",
+    "phonetic": "/fəˈɡet/",
+    "meaning": "忘记；遗忘",
+    "pos": "v."
+  },
+  {
+    "id": 125,
+    "word": "understand",
+    "phonetic": "/ˌʌndəˈstænd/",
+    "meaning": "理解；明白",
+    "pos": "v."
+  },
+  {
+    "id": 126,
+    "word": "student",
+    "phonetic": "/ˈstjuːdnt/",
+    "meaning": "学生",
+    "pos": "n."
+  },
+  {
+    "id": 127,
+    "word": "classmate",
+    "phonetic": "/ˈklɑːsmeɪt/",
+    "meaning": "同班同学",
+    "pos": "n."
+  },
+  {
+    "id": 128,
+    "word": "friend",
+    "phonetic": "/frend/",
+    "meaning": "朋友",
+    "pos": "n."
+  },
+  {
+    "id": 129,
+    "word": "classroom",
+    "phonetic": "/ˈklɑːsruːm/",
+    "meaning": "教室",
+    "pos": "n."
+  },
+  {
+    "id": 130,
+    "word": "library",
+    "phonetic": "/ˈlaɪbrəri/",
+    "meaning": "图书馆",
+    "pos": "n."
+  },
+  {
+    "id": 131,
+    "word": "playground",
+    "phonetic": "/ˈpleɪɡraʊnd/",
+    "meaning": "操场；运动场",
+    "pos": "n."
+  },
+  {
+    "id": 132,
+    "word": "hospital",
+    "phonetic": "/ˈhɒspɪtl/",
+    "meaning": "医院",
+    "pos": "n."
+  },
+  {
+    "id": 133,
+    "word": "park",
+    "phonetic": "/pɑːk/",
+    "meaning": "公园；停车",
+    "pos": "n./v."
+  },
+  {
+    "id": 134,
+    "word": "shop",
+    "phonetic": "/ʃɒp/",
+    "meaning": "商店；购物",
+    "pos": "n./v."
+  },
+  {
+    "id": 135,
+    "word": "market",
+    "phonetic": "/ˈmɑːkɪt/",
+    "meaning": "市场；集市",
+    "pos": "n."
+  },
+  {
+    "id": 136,
+    "word": "street",
+    "phonetic": "/striːt/",
+    "meaning": "街道",
+    "pos": "n."
+  },
+  {
+    "id": 137,
+    "word": "road",
+    "phonetic": "/rəʊd/",
+    "meaning": "路；道路",
+    "pos": "n."
+  },
+  {
+    "id": 138,
+    "word": "bridge",
+    "phonetic": "/brɪdʒ/",
+    "meaning": "桥",
+    "pos": "n."
+  },
+  {
+    "id": 139,
+    "word": "river",
+    "phonetic": "/ˈrɪvə(r)/",
+    "meaning": "河；江",
+    "pos": "n."
+  },
+  {
+    "id": 140,
+    "word": "lake",
+    "phonetic": "/leɪk/",
+    "meaning": "湖",
+    "pos": "n."
+  },
+  {
+    "id": 141,
+    "word": "mountain",
+    "phonetic": "/ˈmaʊntən/",
+    "meaning": "山；山脉",
+    "pos": "n."
+  },
+  {
+    "id": 142,
+    "word": "tree",
+    "phonetic": "/triː/",
+    "meaning": "树",
+    "pos": "n."
+  },
+  {
+    "id": 143,
+    "word": "flower",
+    "phonetic": "/ˈflaʊə(r)/",
+    "meaning": "花",
+    "pos": "n."
+  },
+  {
+    "id": 144,
+    "word": "grass",
+    "phonetic": "/ɡrɑːs/",
+    "meaning": "草",
+    "pos": "n."
+  },
+  {
+    "id": 145,
+    "word": "forest",
+    "phonetic": "/ˈfɒrɪst/",
+    "meaning": "森林",
+    "pos": "n."
+  },
+  {
+    "id": 146,
+    "word": "island",
+    "phonetic": "/ˈaɪlənd/",
+    "meaning": "岛",
+    "pos": "n."
+  },
+  {
+    "id": 147,
+    "word": "beach",
+    "phonetic": "/biːtʃ/",
+    "meaning": "海滩；沙滩",
+    "pos": "n."
+  },
+  {
+    "id": 148,
+    "word": "sea",
+    "phonetic": "/siː/",
+    "meaning": "海；海洋",
+    "pos": "n."
+  },
+  {
+    "id": 149,
+    "word": "sky",
+    "phonetic": "/skaɪ/",
+    "meaning": "天空",
+    "pos": "n."
+  },
+  {
+    "id": 150,
+    "word": "star",
+    "phonetic": "/stɑː(r)/",
+    "meaning": "星星；明星",
+    "pos": "n."
+  },
+  {
+    "id": 151,
+    "word": "moon",
+    "phonetic": "/muːn/",
+    "meaning": "月亮",
+    "pos": "n."
+  },
+  {
+    "id": 152,
+    "word": "sun",
+    "phonetic": "/sʌn/",
+    "meaning": "太阳",
+    "pos": "n."
+  },
+  {
+    "id": 153,
+    "word": "rain",
+    "phonetic": "/reɪn/",
+    "meaning": "雨；下雨",
+    "pos": "n./v."
+  },
+  {
+    "id": 154,
+    "word": "snow",
+    "phonetic": "/snəʊ/",
+    "meaning": "雪；下雪",
+    "pos": "n./v."
+  },
+  {
+    "id": 155,
+    "word": "wind",
+    "phonetic": "/wɪnd/",
+    "meaning": "风",
+    "pos": "n."
+  },
+  {
+    "id": 156,
+    "word": "cloud",
+    "phonetic": "/klaʊd/",
+    "meaning": "云",
+    "pos": "n."
+  },
+  {
+    "id": 157,
+    "word": "father",
+    "phonetic": "/ˈfɑːðə(r)/",
+    "meaning": "父亲；爸爸",
+    "pos": "n."
+  },
+  {
+    "id": 158,
+    "word": "brother",
+    "phonetic": "/ˈbrʌðə(r)/",
+    "meaning": "兄弟",
+    "pos": "n."
+  },
+  {
+    "id": 159,
+    "word": "sister",
+    "phonetic": "/ˈsɪstə(r)/",
+    "meaning": "姐妹",
+    "pos": "n."
+  },
+  {
+    "id": 160,
+    "word": "son",
+    "phonetic": "/sʌn/",
+    "meaning": "儿子",
+    "pos": "n."
+  },
+  {
+    "id": 161,
+    "word": "daughter",
+    "phonetic": "/ˈdɔːtə(r)/",
+    "meaning": "女儿",
+    "pos": "n."
+  },
+  {
+    "id": 162,
+    "word": "uncle",
+    "phonetic": "/ˈʌŋkl/",
+    "meaning": "叔叔；伯父",
+    "pos": "n."
+  },
+  {
+    "id": 163,
+    "word": "aunt",
+    "phonetic": "/ɑːnt/",
+    "meaning": "阿姨；伯母",
+    "pos": "n."
+  },
+  {
+    "id": 164,
+    "word": "cousin",
+    "phonetic": "/ˈkʌzn/",
+    "meaning": "表/堂兄弟姐妹",
+    "pos": "n."
+  },
+  {
+    "id": 165,
+    "word": "grandfather",
+    "phonetic": "/ˈɡrænfɑːðə(r)/",
+    "meaning": "祖父；外祖父",
+    "pos": "n."
+  },
+  {
+    "id": 166,
+    "word": "grandmother",
+    "phonetic": "/ˈɡrænmʌðə(r)/",
+    "meaning": "祖母；外祖母",
+    "pos": "n."
+  },
+  {
+    "id": 167,
+    "word": "baby",
+    "phonetic": "/ˈbeɪbi/",
+    "meaning": "婴儿；宝贝",
+    "pos": "n."
+  },
+  {
+    "id": 168,
+    "word": "children",
+    "phonetic": "/ˈtʃɪldrən/",
+    "meaning": "孩子们",
+    "pos": "n."
+  },
+  {
+    "id": 169,
+    "word": "people",
+    "phonetic": "/ˈpiːpl/",
+    "meaning": "人；人们",
+    "pos": "n."
+  },
+  {
+    "id": 170,
+    "word": "man",
+    "phonetic": "/mæn/",
+    "meaning": "男人；人",
+    "pos": "n."
+  },
+  {
+    "id": 171,
+    "word": "woman",
+    "phonetic": "/ˈwʊmən/",
+    "meaning": "女人；妇女",
+    "pos": "n."
+  },
+  {
+    "id": 172,
+    "word": "boy",
+    "phonetic": "/bɔɪ/",
+    "meaning": "男孩",
+    "pos": "n."
+  },
+  {
+    "id": 173,
+    "word": "girl",
+    "phonetic": "/ɡɜːl/",
+    "meaning": "女孩",
+    "pos": "n."
+  },
+  {
+    "id": 174,
+    "word": "head",
+    "phonetic": "/hed/",
+    "meaning": "头",
+    "pos": "n."
+  },
+  {
+    "id": 175,
+    "word": "face",
+    "phonetic": "/feɪs/",
+    "meaning": "脸；面孔",
+    "pos": "n."
+  },
+  {
+    "id": 176,
+    "word": "eye",
+    "phonetic": "/aɪ/",
+    "meaning": "眼睛",
+    "pos": "n."
+  },
+  {
+    "id": 177,
+    "word": "ear",
+    "phonetic": "/ɪə(r)/",
+    "meaning": "耳朵",
+    "pos": "n."
+  },
+  {
+    "id": 178,
+    "word": "nose",
+    "phonetic": "/nəʊz/",
+    "meaning": "鼻子",
+    "pos": "n."
+  },
+  {
+    "id": 179,
+    "word": "mouth",
+    "phonetic": "/maʊθ/",
+    "meaning": "嘴；口",
+    "pos": "n."
+  },
+  {
+    "id": 180,
+    "word": "hand",
+    "phonetic": "/hænd/",
+    "meaning": "手",
+    "pos": "n."
+  },
+  {
+    "id": 181,
+    "word": "foot",
+    "phonetic": "/fʊt/",
+    "meaning": "脚",
+    "pos": "n."
+  },
+  {
+    "id": 182,
+    "word": "leg",
+    "phonetic": "/leɡ/",
+    "meaning": "腿",
+    "pos": "n."
+  },
+  {
+    "id": 183,
+    "word": "arm",
+    "phonetic": "/ɑːm/",
+    "meaning": "手臂；胳膊",
+    "pos": "n."
+  },
+  {
+    "id": 184,
+    "word": "hair",
+    "phonetic": "/heə(r)/",
+    "meaning": "头发",
+    "pos": "n."
+  },
+  {
+    "id": 185,
+    "word": "tall",
+    "phonetic": "/tɔːl/",
+    "meaning": "高的",
+    "pos": "adj."
+  },
+  {
+    "id": 186,
+    "word": "short",
+    "phonetic": "/ʃɔːt/",
+    "meaning": "矮的；短的",
+    "pos": "adj."
+  },
+  {
+    "id": 187,
+    "word": "thin",
+    "phonetic": "/θɪn/",
+    "meaning": "瘦的；薄的",
+    "pos": "adj."
+  },
+  {
+    "id": 188,
+    "word": "fat",
+    "phonetic": "/fæt/",
+    "meaning": "胖的；肥的",
+    "pos": "adj."
+  },
+  {
+    "id": 189,
+    "word": "strong",
+    "phonetic": "/strɒŋ/",
+    "meaning": "强壮的；强烈的",
+    "pos": "adj."
+  },
+  {
+    "id": 190,
+    "word": "weak",
+    "phonetic": "/wiːk/",
+    "meaning": "虚弱的；弱的",
+    "pos": "adj."
+  },
+  {
+    "id": 191,
+    "word": "healthy",
+    "phonetic": "/ˈhelθi/",
+    "meaning": "健康的",
+    "pos": "adj."
+  },
+  {
+    "id": 192,
+    "word": "ill",
+    "phonetic": "/ɪl/",
+    "meaning": "生病的",
+    "pos": "adj."
+  },
+  {
+    "id": 193,
+    "word": "tired",
+    "phonetic": "/ˈtaɪəd/",
+    "meaning": "疲倦的；累的",
+    "pos": "adj."
+  },
+  {
+    "id": 194,
+    "word": "hungry",
+    "phonetic": "/ˈhʌŋɡri/",
+    "meaning": "饥饿的",
+    "pos": "adj."
+  },
+  {
+    "id": 195,
+    "word": "thirsty",
+    "phonetic": "/ˈθɜːsti/",
+    "meaning": "口渴的",
+    "pos": "adj."
+  },
+  {
+    "id": 196,
+    "word": "angry",
+    "phonetic": "/ˈæŋɡri/",
+    "meaning": "生气的；愤怒的",
+    "pos": "adj."
+  },
+  {
+    "id": 197,
+    "word": "sad",
+    "phonetic": "/sæd/",
+    "meaning": "难过的；悲伤的",
+    "pos": "adj."
+  },
+  {
+    "id": 198,
+    "word": "excited",
+    "phonetic": "/ɪkˈsaɪtɪd/",
+    "meaning": "兴奋的；激动的",
+    "pos": "adj."
+  },
+  {
+    "id": 199,
+    "word": "bored",
+    "phonetic": "/bɔːd/",
+    "meaning": "无聊的；厌烦的",
+    "pos": "adj."
+  },
+  {
+    "id": 200,
+    "word": "surprised",
+    "phonetic": "/səˈpraɪzd/",
+    "meaning": "惊讶的；吃惊的",
+    "pos": "adj."
+  },
+  {
+    "id": 201,
+    "word": "buy",
+    "phonetic": "/baɪ/",
+    "meaning": "买；购买",
+    "pos": "v."
+  },
+  {
+    "id": 202,
+    "word": "sell",
+    "phonetic": "/sel/",
+    "meaning": "卖；出售",
+    "pos": "v."
+  },
+  {
+    "id": 203,
+    "word": "pay",
+    "phonetic": "/peɪ/",
+    "meaning": "付钱；支付",
+    "pos": "v."
+  },
+  {
+    "id": 204,
+    "word": "cost",
+    "phonetic": "/kɒst/",
+    "meaning": "花费；价钱为",
+    "pos": "v./n."
+  },
+  {
+    "id": 205,
+    "word": "spend",
+    "phonetic": "/spend/",
+    "meaning": "花费；度过",
+    "pos": "v."
+  },
+  {
+    "id": 206,
+    "word": "money",
+    "phonetic": "/ˈmʌni/",
+    "meaning": "钱；金钱",
+    "pos": "n."
+  },
+  {
+    "id": 207,
+    "word": "dollar",
+    "phonetic": "/ˈdɒlə(r)/",
+    "meaning": "美元",
+    "pos": "n."
+  },
+  {
+    "id": 208,
+    "word": "bank",
+    "phonetic": "/bæŋk/",
+    "meaning": "银行；河岸",
+    "pos": "n."
+  },
+  {
+    "id": 209,
+    "word": "poor",
+    "phonetic": "/pʊə(r)/",
+    "meaning": "贫穷的；可怜的",
+    "pos": "adj."
+  },
+  {
+    "id": 210,
+    "word": "rich",
+    "phonetic": "/rɪtʃ/",
+    "meaning": "富有的；丰富的",
+    "pos": "adj."
+  },
+  {
+    "id": 211,
+    "word": "help",
+    "phonetic": "/help/",
+    "meaning": "帮助；帮忙",
+    "pos": "v./n."
+  },
+  {
+    "id": 212,
+    "word": "try",
+    "phonetic": "/traɪ/",
+    "meaning": "尝试；努力",
+    "pos": "v./n."
+  },
+  {
+    "id": 213,
+    "word": "start",
+    "phonetic": "/stɑːt/",
+    "meaning": "开始；启动",
+    "pos": "v./n."
+  },
+  {
+    "id": 214,
+    "word": "finish",
+    "phonetic": "/ˈfɪnɪʃ/",
+    "meaning": "完成；结束",
+    "pos": "v."
+  },
+  {
+    "id": 215,
+    "word": "begin",
+    "phonetic": "/bɪˈɡɪn/",
+    "meaning": "开始",
+    "pos": "v."
+  },
+  {
+    "id": 216,
+    "word": "end",
+    "phonetic": "/end/",
+    "meaning": "结束；末端",
+    "pos": "n./v."
+  },
+  {
+    "id": 217,
+    "word": "stop",
+    "phonetic": "/stɒp/",
+    "meaning": "停止；车站",
+    "pos": "v./n."
+  },
+  {
+    "id": 218,
+    "word": "continue",
+    "phonetic": "/kənˈtɪnjuː/",
+    "meaning": "继续",
+    "pos": "v."
+  },
+  {
+    "id": 219,
+    "word": "work",
+    "phonetic": "/wɜːk/",
+    "meaning": "工作；作品",
+    "pos": "v./n."
+  },
+  {
+    "id": 220,
+    "word": "job",
+    "phonetic": "/dʒɒb/",
+    "meaning": "工作；职业",
+    "pos": "n."
+  },
+  {
+    "id": 221,
+    "word": "worker",
+    "phonetic": "/ˈwɜːkə(r)/",
+    "meaning": "工人",
+    "pos": "n."
+  },
+  {
+    "id": 222,
+    "word": "doctor",
+    "phonetic": "/ˈdɒktə(r)/",
+    "meaning": "医生；博士",
+    "pos": "n."
+  },
+  {
+    "id": 223,
+    "word": "nurse",
+    "phonetic": "/nɜːs/",
+    "meaning": "护士",
+    "pos": "n."
+  },
+  {
+    "id": 224,
+    "word": "farmer",
+    "phonetic": "/ˈfɑːmə(r)/",
+    "meaning": "农民",
+    "pos": "n."
+  },
+  {
+    "id": 225,
+    "word": "driver",
+    "phonetic": "/ˈdraɪvə(r)/",
+    "meaning": "司机；驾驶员",
+    "pos": "n."
+  },
+  {
+    "id": 226,
+    "word": "cook",
+    "phonetic": "/kʊk/",
+    "meaning": "厨师；烹饪",
+    "pos": "n./v."
+  },
+  {
+    "id": 227,
+    "word": "waiter",
+    "phonetic": "/ˈweɪtə(r)/",
+    "meaning": "服务员；侍者",
+    "pos": "n."
+  },
+  {
+    "id": 228,
+    "word": "police",
+    "phonetic": "/pəˈliːs/",
+    "meaning": "警察；警方",
+    "pos": "n."
+  },
+  {
+    "id": 229,
+    "word": "scientist",
+    "phonetic": "/ˈsaɪəntɪst/",
+    "meaning": "科学家",
+    "pos": "n."
+  },
+  {
+    "id": 230,
+    "word": "artist",
+    "phonetic": "/ˈɑːtɪst/",
+    "meaning": "艺术家",
+    "pos": "n."
+  },
+  {
+    "id": 231,
+    "word": "music",
+    "phonetic": "/ˈmjuːzɪk/",
+    "meaning": "音乐",
+    "pos": "n."
+  },
+  {
+    "id": 232,
+    "word": "art",
+    "phonetic": "/ɑːt/",
+    "meaning": "艺术；美术",
+    "pos": "n."
+  },
+  {
+    "id": 233,
+    "word": "sport",
+    "phonetic": "/spɔːt/",
+    "meaning": "体育运动",
+    "pos": "n."
+  },
+  {
+    "id": 234,
+    "word": "football",
+    "phonetic": "/ˈfʊtbɔːl/",
+    "meaning": "足球",
+    "pos": "n."
+  },
+  {
+    "id": 235,
+    "word": "basketball",
+    "phonetic": "/ˈbɑːskɪtbɔːl/",
+    "meaning": "篮球",
+    "pos": "n."
+  },
+  {
+    "id": 236,
+    "word": "tennis",
+    "phonetic": "/ˈtenɪs/",
+    "meaning": "网球",
+    "pos": "n."
+  },
+  {
+    "id": 237,
+    "word": "swim",
+    "phonetic": "/swɪm/",
+    "meaning": "游泳",
+    "pos": "v."
+  },
+  {
+    "id": 238,
+    "word": "skate",
+    "phonetic": "/skeɪt/",
+    "meaning": "滑冰；溜冰",
+    "pos": "v."
+  },
+  {
+    "id": 239,
+    "word": "bike",
+    "phonetic": "/baɪk/",
+    "meaning": "自行车",
+    "pos": "n."
+  },
+  {
+    "id": 240,
+    "word": "bus",
+    "phonetic": "/bʌs/",
+    "meaning": "公共汽车",
+    "pos": "n."
+  },
+  {
+    "id": 241,
+    "word": "train",
+    "phonetic": "/treɪn/",
+    "meaning": "火车；训练",
+    "pos": "n./v."
+  },
+  {
+    "id": 242,
+    "word": "plane",
+    "phonetic": "/pleɪn/",
+    "meaning": "飞机",
+    "pos": "n."
+  },
+  {
+    "id": 243,
+    "word": "ship",
+    "phonetic": "/ʃɪp/",
+    "meaning": "船；轮船",
+    "pos": "n."
+  },
+  {
+    "id": 244,
+    "word": "car",
+    "phonetic": "/kɑː(r)/",
+    "meaning": "汽车；轿车",
+    "pos": "n."
+  },
+  {
+    "id": 245,
+    "word": "walk",
+    "phonetic": "/wɔːk/",
+    "meaning": "步行；走路",
+    "pos": "v./n."
+  },
+  {
+    "id": 246,
+    "word": "ride",
+    "phonetic": "/raɪd/",
+    "meaning": "骑；乘",
+    "pos": "v."
+  },
+  {
+    "id": 247,
+    "word": "drive",
+    "phonetic": "/draɪv/",
+    "meaning": "驾驶；开车",
+    "pos": "v."
+  },
+  {
+    "id": 248,
+    "word": "fly",
+    "phonetic": "/flaɪ/",
+    "meaning": "飞；飞行",
+    "pos": "v."
+  },
+  {
+    "id": 249,
+    "word": "travel",
+    "phonetic": "/ˈtrævl/",
+    "meaning": "旅行；游历",
+    "pos": "v./n."
+  },
+  {
+    "id": 250,
+    "word": "visit",
+    "phonetic": "/ˈvɪzɪt/",
+    "meaning": "参观；拜访",
+    "pos": "v./n."
+  },
+  {
+    "id": 251,
+    "word": "computer",
+    "phonetic": "/kəmˈpjuːtə(r)/",
+    "meaning": "计算机；电脑",
+    "pos": "n."
+  },
+  {
+    "id": 252,
+    "word": "phone",
+    "phonetic": "/fəʊn/",
+    "meaning": "电话",
+    "pos": "n."
+  },
+  {
+    "id": 253,
+    "word": "email",
+    "phonetic": "/ˈiːmeɪl/",
+    "meaning": "电子邮件",
+    "pos": "n."
+  },
+  {
+    "id": 254,
+    "word": "internet",
+    "phonetic": "/ˈɪntənet/",
+    "meaning": "互联网",
+    "pos": "n."
+  },
+  {
+    "id": 255,
+    "word": "robot",
+    "phonetic": "/ˈrəʊbɒt/",
+    "meaning": "机器人",
+    "pos": "n."
+  },
+  {
+    "id": 256,
+    "word": "camera",
+    "phonetic": "/ˈkæmərə/",
+    "meaning": "照相机",
+    "pos": "n."
+  },
+  {
+    "id": 257,
+    "word": "television",
+    "phonetic": "/ˈtelɪvɪʒn/",
+    "meaning": "电视",
+    "pos": "n."
+  },
+  {
+    "id": 258,
+    "word": "radio",
+    "phonetic": "/ˈreɪdiəʊ/",
+    "meaning": "收音机；广播",
+    "pos": "n."
+  },
+  {
+    "id": 259,
+    "word": "newspaper",
+    "phonetic": "/ˈnjuːzpeɪpə(r)/",
+    "meaning": "报纸",
+    "pos": "n."
+  },
+  {
+    "id": 260,
+    "word": "magazine",
+    "phonetic": "/ˌmæɡəˈziːn/",
+    "meaning": "杂志",
+    "pos": "n."
+  },
+  {
+    "id": 261,
+    "word": "story",
+    "phonetic": "/ˈstɔːri/",
+    "meaning": "故事",
+    "pos": "n."
+  },
+  {
+    "id": 262,
+    "word": "game",
+    "phonetic": "/ɡeɪm/",
+    "meaning": "游戏；比赛",
+    "pos": "n."
+  },
+  {
+    "id": 263,
+    "word": "movie",
+    "phonetic": "/ˈmuːvi/",
+    "meaning": "电影",
+    "pos": "n."
+  },
+  {
+    "id": 264,
+    "word": "party",
+    "phonetic": "/ˈpɑːti/",
+    "meaning": "聚会；政党",
+    "pos": "n."
+  },
+  {
+    "id": 265,
+    "word": "gift",
+    "phonetic": "/ɡɪft/",
+    "meaning": "礼物",
+    "pos": "n."
+  },
+  {
+    "id": 266,
+    "word": "card",
+    "phonetic": "/kɑːd/",
+    "meaning": "卡片；纸牌",
+    "pos": "n."
+  },
+  {
+    "id": 267,
+    "word": "letter",
+    "phonetic": "/ˈletə(r)/",
+    "meaning": "信；字母",
+    "pos": "n."
+  },
+  {
+    "id": 268,
+    "word": "message",
+    "phonetic": "/ˈmesɪdʒ/",
+    "meaning": "消息；信息",
+    "pos": "n."
+  },
+  {
+    "id": 269,
+    "word": "answer",
+    "phonetic": "/ˈɑːnsə(r)/",
+    "meaning": "回答；答案",
+    "pos": "v./n."
+  },
+  {
+    "id": 270,
+    "word": "problem",
+    "phonetic": "/ˈprɒbləm/",
+    "meaning": "问题；难题",
+    "pos": "n."
+  },
+  {
+    "id": 271,
+    "word": "idea",
+    "phonetic": "/aɪˈdɪə/",
+    "meaning": "主意；想法",
+    "pos": "n."
+  },
+  {
+    "id": 272,
+    "word": "plan",
+    "phonetic": "/plæn/",
+    "meaning": "计划；打算",
+    "pos": "n./v."
+  },
+  {
+    "id": 273,
+    "word": "hope",
+    "phonetic": "/həʊp/",
+    "meaning": "希望",
+    "pos": "v./n."
+  },
+  {
+    "id": 274,
+    "word": "wish",
+    "phonetic": "/wɪʃ/",
+    "meaning": "希望；愿望",
+    "pos": "v./n."
+  },
+  {
+    "id": 275,
+    "word": "dream",
+    "phonetic": "/driːm/",
+    "meaning": "梦想；做梦",
+    "pos": "n./v."
+  },
+  {
+    "id": 276,
+    "word": "lucky",
+    "phonetic": "/ˈlʌki/",
+    "meaning": "幸运的",
+    "pos": "adj."
+  },
+  {
+    "id": 277,
+    "word": "true",
+    "phonetic": "/truː/",
+    "meaning": "真的；真实的",
+    "pos": "adj."
+  },
+  {
+    "id": 278,
+    "word": "false",
+    "phonetic": "/fɔːls/",
+    "meaning": "假的；错误的",
+    "pos": "adj."
+  },
+  {
+    "id": 279,
+    "word": "right",
+    "phonetic": "/raɪt/",
+    "meaning": "正确的；右边",
+    "pos": "adj./n."
+  },
+  {
+    "id": 280,
+    "word": "wrong",
+    "phonetic": "/rɒŋ/",
+    "meaning": "错误的；不对的",
+    "pos": "adj."
+  },
+  {
+    "id": 281,
+    "word": "same",
+    "phonetic": "/seɪm/",
+    "meaning": "相同的",
+    "pos": "adj."
+  },
+  {
+    "id": 282,
+    "word": "different",
+    "phonetic": "/ˈdɪfrənt/",
+    "meaning": "不同的",
+    "pos": "adj."
+  },
+  {
+    "id": 283,
+    "word": "many",
+    "phonetic": "/ˈmeni/",
+    "meaning": "许多的",
+    "pos": "adj."
+  },
+  {
+    "id": 284,
+    "word": "much",
+    "phonetic": "/mʌtʃ/",
+    "meaning": "许多；非常",
+    "pos": "adj./adv."
+  },
+  {
+    "id": 285,
+    "word": "little",
+    "phonetic": "/ˈlɪtl/",
+    "meaning": "小的；很少",
+    "pos": "adj./n."
+  },
+  {
+    "id": 286,
+    "word": "few",
+    "phonetic": "/fjuː/",
+    "meaning": "很少的；不多的",
+    "pos": "adj."
+  },
+  {
+    "id": 287,
+    "word": "all",
+    "phonetic": "/ɔːl/",
+    "meaning": "全部的；所有",
+    "pos": "adj./pron."
+  },
+  {
+    "id": 288,
+    "word": "some",
+    "phonetic": "/sʌm/",
+    "meaning": "一些；若干",
+    "pos": "adj./pron."
+  },
+  {
+    "id": 289,
+    "word": "any",
+    "phonetic": "/ˈeni/",
+    "meaning": "任何的；一些",
+    "pos": "adj./pron."
+  },
+  {
+    "id": 290,
+    "word": "each",
+    "phonetic": "/iːtʃ/",
+    "meaning": "每个；各自",
+    "pos": "adj./pron."
+  },
+  {
+    "id": 291,
+    "word": "every",
+    "phonetic": "/ˈevri/",
+    "meaning": "每一；每个",
+    "pos": "adj."
+  },
+  {
+    "id": 292,
+    "word": "both",
+    "phonetic": "/bəʊθ/",
+    "meaning": "两者都",
+    "pos": "adj./pron."
+  },
+  {
+    "id": 293,
+    "word": "either",
+    "phonetic": "/ˈaɪðə(r)/",
+    "meaning": "两者之一；也",
+    "pos": "pron./adv."
+  },
+  {
+    "id": 294,
+    "word": "neither",
+    "phonetic": "/ˈnaɪðə(r)/",
+    "meaning": "两者都不",
+    "pos": "pron./adj."
+  },
+  {
+    "id": 295,
+    "word": "other",
+    "phonetic": "/ˈʌðə(r)/",
+    "meaning": "别的；其他的",
+    "pos": "adj./pron."
+  },
+  {
+    "id": 296,
+    "word": "another",
+    "phonetic": "/əˈnʌðə(r)/",
+    "meaning": "另一个；再一个",
+    "pos": "adj./pron."
+  },
+  {
+    "id": 297,
+    "word": "first",
+    "phonetic": "/fɜːst/",
+    "meaning": "第一；首先",
+    "pos": "num./adv."
+  },
+  {
+    "id": 298,
+    "word": "last",
+    "phonetic": "/lɑːst/",
+    "meaning": "最后的；上一个",
+    "pos": "adj./adv."
+  },
+  {
+    "id": 299,
+    "word": "next",
+    "phonetic": "/nekst/",
+    "meaning": "下一个；接下来",
+    "pos": "adj./adv."
+  },
+  {
+    "id": 300,
+    "word": "best",
+    "phonetic": "/best/",
+    "meaning": "最好的；最",
+    "pos": "adj./adv."
+  }
 ]
