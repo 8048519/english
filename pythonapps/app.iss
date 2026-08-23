@@ -1,6 +1,6 @@
 [Setup]
 AppName=english_word_study
-AppVersion=1.0.1
+AppVersion=1.1.1
 AppPublisher=8048519
 SetupIconFile=.\apps\_internal\icon.ico
 ; 启用自定义安装路径（用户可修改）
