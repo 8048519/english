@@ -20,9 +20,12 @@
         <button class="nav-btn active" data-view="home">今日单词</button>
         <button class="nav-btn" data-view="manage">题库管理</button>
         <button class="nav-btn" data-view="print">A4 打印预览</button>
+        <!-- 新增：下载Windows客户端按钮 -->
+        <a href="setup.exe" class="nav-btn download-client-btn" download>下载 Windows 客户端</a>
       </nav>
     </div>
   </header>
+
 
   <!-- 主页面：今日单词 -->
   <main class="view view-home active" id="view-home">
@@ -47,6 +50,7 @@
         </div>
       </section>
 
+
       <section class="card">
         <div class="card-header">
           <h2>今日单词列表</h2>
@@ -58,6 +62,7 @@
       </section>
     </div>
   </main>
+
 
   <!-- 题库管理页 -->
   <main class="view view-manage" id="view-manage">
@@ -75,6 +80,7 @@
           <button class="btn btn-secondary" id="btnResetWords">恢复默认题库</button>
         </div>
       </section>
+
 
       <section class="card">
         <div class="table-wrap">
@@ -101,6 +107,7 @@
     </div>
   </main>
 
+
   <!-- A4 打印预览页 -->
   <main class="view view-print" id="view-print">
     <div class="print-controls no-print">
@@ -114,6 +121,7 @@
       </div>
     </div>
 
+
     <!-- A4 纸张预览 -->
     <div class="a4-page-wrap">
       <div class="a4-page" id="a4Page">
@@ -121,6 +129,7 @@
           <div class="a4-title">每日单词默写练习</div>
           <div class="a4-date">日期：<span id="a4Date">—</span></div>
         </header>
+
 
         <div class="a4-body">
           <table class="a4-table" id="a4Table">
@@ -139,6 +148,7 @@
           </table>
         </div>
 
+
         <footer class="a4-footer">
           <span>初中英语单词背诵助手</span>
           <span>第 1 页 / 共 1 页</span>
@@ -146,6 +156,7 @@
       </div>
     </div>
   </main>
+
 
   <!-- 添加/编辑单词弹窗 -->
   <div class="modal no-print" id="wordModal">
@@ -183,6 +194,7 @@
     </div>
   </div>
 
+
   <!-- 确认弹窗 -->
   <div class="modal no-print" id="confirmModal">
     <div class="modal-mask"></div>
@@ -200,8 +212,10 @@
     </div>
   </div>
 
+
   <!-- Toast 提示 -->
   <div class="toast no-print" id="toast"></div>
+
 
   <script src="js/app.js"></script>
 </body>
