@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="creative-medium" content="interactive-prototype" />
+  <title>初中英语单词背诵助手</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <header class="app-header no-print">
+    <div class="header-inner">
+      <h1 class="app-title">
+        <span class="title-icon">📚</span>
+        初中英语单词背诵助手
+      </h1>
+      <nav class="app-nav">
+        <button class="nav-btn active" data-view="home">今日单词</button>
+        <button class="nav-btn" data-view="manage">题库管理</button>
+        <button class="nav-btn" data-view="print">A4 打印预览</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主页面：今日单词 -->
+  <main class="view view-home active" id="view-home">
+    <div class="container">
+      <section class="card stats-card">
+        <div class="stats-item">
+          <span class="stats-label">今日日期</span>
+          <span class="stats-value" id="todayDate">—</span>
+        </div>
+        <div class="stats-item">
+          <span class="stats-label">今日单词</span>
+          <span class="stats-value" id="todayCount">0 / 50</span>
+        </div>
+        <div class="stats-item">
+          <span class="stats-label">题库总量</span>
+          <span class="stats-value" id="totalCount">0</span>
+        </div>
+        <div class="stats-actions">
+          <button class="btn btn-primary" id="btnRefreshWords">重新抽取今日单词</button>
+          <button class="btn btn-secondary" id="btnToggleMeaning">隐藏中文释义</button>
+          <button class="btn btn-outline" id="btnGoPrint">前往打印预览</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <h2>今日单词列表</h2>
+          <span class="card-subtitle" id="wordListSubtitle">共 0 个单词</span>
+        </div>
+        <div class="word-grid" id="todayWordList">
+          <!-- 单词卡片由 JS 渲染 -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 题库管理页 -->
+  <main class="view view-manage" id="view-manage">
+    <div class="container">
+      <section class="card manage-toolbar">
+        <div class="toolbar-left">
+          <h2>题库管理</h2>
+          <span class="card-subtitle">共 <span id="manageTotalCount">0</span> 个单词</span>
+        </div>
+        <div class="toolbar-right">
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="搜索单词、中文释义..." />
+          </div>
+          <button class="btn btn-primary" id="btnAddWord">+ 添加单词</button>
+          <button class="btn btn-secondary" id="btnResetWords">恢复默认题库</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="table-wrap">
+          <table class="word-table">
+            <thead>
+              <tr>
+                <th style="width:60px">序号</th>
+                <th style="width:180px">单词</th>
+                <th style="width:200px">音标</th>
+                <th style="width:100px">词性</th>
+                <th>中文释义</th>
+                <th style="width:160px" class="no-print">操作</th>
+              </tr>
+            </thead>
+            <tbody id="wordTableBody">
+              <!-- 由 JS 渲染 -->
+            </tbody>
+          </table>
+        </div>
+        <div class="table-empty" id="tableEmpty" style="display:none">
+          <p>暂无匹配的单词</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- A4 打印预览页 -->
+  <main class="view view-print" id="view-print">
+    <div class="print-controls no-print">
+      <div class="container">
+        <div class="print-toolbar">
+          <button class="btn btn-primary" id="btnDoPrint">🖨️ 打印 / 另存为 PDF</button>
+          <button class="btn btn-secondary" id="btnPrintToggle">显示/隐藏中文释义</button>
+          <button class="btn btn-outline" id="btnPrintBack">← 返回首页</button>
+        </div>
+        <p class="print-tip">点击「打印」后，选择 A4 纸张、纵向、边距默认即可。操作按钮不会被打印。</p>
+      </div>
+    </div>
+
+    <!-- A4 纸张预览 -->
+    <div class="a4-page-wrap">
+      <div class="a4-page" id="a4Page">
+        <header class="a4-header">
+          <div class="a4-title">每日单词默写练习</div>
+          <div class="a4-date">日期：<span id="a4Date">—</span></div>
+        </header>
+
+        <div class="a4-body">
+          <table class="a4-table" id="a4Table">
+            <thead>
+              <tr>
+                <th style="width:6%">No.</th>
+                <th style="width:28%">English</th>
+                <th style="width:20%">Phonetic</th>
+                <th style="width:8%">POS</th>
+                <th>中文释义（默写区）</th>
+              </tr>
+            </thead>
+            <tbody id="a4TableBody">
+              <!-- 由 JS 渲染 50 行 -->
+            </tbody>
+          </table>
+        </div>
+
+        <footer class="a4-footer">
+          <span>初中英语单词背诵助手</span>
+          <span>第 1 页 / 共 1 页</span>
+        </footer>
+      </div>
+    </div>
+  </main>
+
+  <!-- 添加/编辑单词弹窗 -->
+  <div class="modal no-print" id="wordModal">
+    <div class="modal-mask"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modalTitle">添加单词</h3>
+        <button class="modal-close" id="modalClose">×</button>
+      </div>
+      <div class="modal-body">
+        <form id="wordForm">
+          <input type="hidden" id="wordId" />
+          <div class="form-row">
+            <label>单词 <span class="required">*</span></label>
+            <input type="text" id="formWord" required placeholder="例如：apple" />
+          </div>
+          <div class="form-row">
+            <label>音标</label>
+            <input type="text" id="formPhonetic" placeholder="例如：/ˈæpl/" />
+          </div>
+          <div class="form-row">
+            <label>词性</label>
+            <input type="text" id="formPos" placeholder="例如：n. / v. / adj." />
+          </div>
+          <div class="form-row">
+            <label>中文释义 <span class="required">*</span></label>
+            <input type="text" id="formMeaning" required placeholder="例如：苹果" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" id="modalCancel">取消</button>
+        <button class="btn btn-primary" id="modalSave">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 确认弹窗 -->
+  <div class="modal no-print" id="confirmModal">
+    <div class="modal-mask"></div>
+    <div class="modal-dialog modal-sm">
+      <div class="modal-header">
+        <h3 id="confirmTitle">确认操作</h3>
+      </div>
+      <div class="modal-body">
+        <p id="confirmMessage">确定要执行此操作吗？</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" id="confirmCancel">取消</button>
+        <button class="btn btn-danger" id="confirmOk">确定</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast 提示 -->
+  <div class="toast no-print" id="toast"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
